@@ -40,7 +40,7 @@ h1{
 h2 {
     font-family: "Modena Sans";
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 nav ul {
@@ -80,6 +80,10 @@ section {
 
 .portfolio-item {
     margin-bottom: 0px;
+}
+
+.portfolio-item:hover {
+    color: rgb(117, 117, 117);
 }
 
 .portfolio-item img {
@@ -149,10 +153,61 @@ a.black:hover {
     color: rgb(117, 117, 117);
 }
 
+
+.elvis-project {
+    max-width: 50%;
+    height: auto;
+    padding: 0px;
+}
+
+.elvis-project-image {
+    max-width: 50%;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.elvis-project img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elvis-project {
+    align-items: center;
+}
+
+.color-scheme-images-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-content-title {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.color-scheme-images-2 {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 35px;
         padding-top: 0px;
+    }
+
+    .elvis-project {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
     }
     
     header {
@@ -190,4 +245,13 @@ a.black:hover {
     h2 {
         font-size: 20px;
     }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .color-scheme-images {
+        display: flex;
+    }
+
 }
