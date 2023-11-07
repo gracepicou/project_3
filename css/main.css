@@ -1,0 +1,193 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Modena Sans";
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Cursive Signature";
+    src: url(modenascript-regular-webfont.woff)
+}
+
+@font-face {
+    font-family: "Modena Sans";
+    src: url(modenasans-regular-webfont.woff);
+}
+
+h1{
+    font-family: "Cursive Signature";
+    font-size: 47px;
+}
+
+
+h2 {
+    font-family: "Modena Sans";
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+nav li {
+    font-family: "Modena Sans";
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: rgb(117, 117, 117);
+}
+
+section {
+    background-color: #ebebeb;
+    padding: 30px;
+    margin: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.portfolio-item {
+    margin-bottom: 0px;
+}
+
+.portfolio-item img {
+    padding: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.introduction img {
+    max-width: 50%;
+    height: auto;
+    padding: 0px;
+}
+
+.introduction {
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.introduction p { 
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-form {
+    text-align: center;
+    color: black;
+}
+
+.contact-form-boxes {
+    padding: 20px;
+}
+
+label {
+    display: flex;
+    justify-content: left;
+}
+
+.contact-form-boxes div {
+    display: flex;
+    flex-direction: column;
+}
+
+div button {
+    background-color:#ebebeb;
+    padding: .5rem .5rem;
+    border-radius: 50px;
+    align-content: center;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+a.black {
+    color:black
+}
+
+a.black:hover {
+    color: rgb(117, 117, 117);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+        padding-top: 0px;
+    }
+    
+    header {
+        font-size: 20px;
+    }
+
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
