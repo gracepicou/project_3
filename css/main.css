@@ -92,6 +92,11 @@ section {
     height: auto;
 }
 
+.portfolio-item:hover{
+    opacity: 0.3;
+    transition: 0.4s ease;
+}
+
 .introduction img {
     max-width: 50%;
     height: auto;
@@ -195,6 +200,8 @@ a.black:hover {
     display: flex;
     flex-direction: column;
 }
+
+
 
 @media (max-width: 768px) {
     h1 {
