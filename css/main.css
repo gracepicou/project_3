@@ -201,6 +201,11 @@ a.black:hover {
     flex-direction: column;
 }
 
+.thank-you{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+}
 
 
 @media (max-width: 768px) {
