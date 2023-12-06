@@ -219,6 +219,30 @@ a.black:hover {
     padding-bottom: 0px;
 }
 
+input,textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(117, 117, 117);
+}
+
+form {
+    align-content: center;
+    padding: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 @media (max-width: 768px) {
     h1 {
         font-size: 35px;
