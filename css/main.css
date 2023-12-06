@@ -192,8 +192,8 @@ a.black:hover {
 }
 
 .featured-content-title {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+    padding-bottom: -40px;
+    margin-bottom: 0px;
 }
 
 .color-scheme-images-2 {
@@ -207,6 +207,17 @@ a.black:hover {
     padding: 100px;
 }
 
+.art-paragraph{
+    padding: 0px;
+}
+
+.main{
+    padding-bottom: 0px;
+}
+
+.section{
+    padding-bottom: 0px;
+}
 
 @media (max-width: 768px) {
     h1 {
@@ -215,7 +226,7 @@ a.black:hover {
     }
 
     .elvis-project {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -235,7 +246,7 @@ a.black:hover {
     .main {
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: 60%;
     }
 
     nav {
@@ -247,7 +258,7 @@ a.black:hover {
     }
 
     section {
-        padding: 10px;
+        padding: 0px;
     }
 
     nav a {
